@@ -3,10 +3,10 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MyTrades.Analytics;
 using MyTrades.Analytics.Model;
 
-namespace myTrades.Analytics.Tests
+namespace MyTrades.Analytics.Tests
 {
 	[TestClass]
-	public class UnitTest1
+	public class MovingAvgTest
 	{
 		[TestMethod]
 		public void TestSimpleMovingAvg()

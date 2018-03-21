@@ -6,6 +6,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "myTrades.Analytics", "src\m
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "myTrades.Analytics.Tests", "test\myTrades.Analytics.Tests\myTrades.Analytics.Tests.csproj", "{92EEFE8D-C55A-4278-A069-8770B023DDDF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myTrades.Analytics.PerfTests", "test\myTrades.Analytics.PerfTests\myTrades.Analytics.PerfTests.csproj", "{2FDCBE66-6051-4643-B738-3D57C0070715}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{92EEFE8D-C55A-4278-A069-8770B023DDDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92EEFE8D-C55A-4278-A069-8770B023DDDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92EEFE8D-C55A-4278-A069-8770B023DDDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FDCBE66-6051-4643-B738-3D57C0070715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FDCBE66-6051-4643-B738-3D57C0070715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FDCBE66-6051-4643-B738-3D57C0070715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FDCBE66-6051-4643-B738-3D57C0070715}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

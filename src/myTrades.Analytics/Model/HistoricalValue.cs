@@ -15,22 +15,21 @@ namespace MyTrades.Analytics.Model
 		private decimal open;
         public Decimal Open
 		{
-			get { return Math.Round(open, 2); }
+			get { return open; }
 			set { open = value; }
 		}
 		
 		private decimal high;
 		public Decimal High
 		{
-			get { return Math.Round(high, 2); }
+			get { return high; }
 			set { high = value; }
 		}
-
 
 		private decimal low;
         public Decimal Low
 		{
-			get { return Math.Round(low, 2); }
+			get { return low; }
 			set { low = value; }
 		}
 
@@ -38,7 +37,7 @@ namespace MyTrades.Analytics.Model
 
 		public Decimal Close
 		{
-			get { return Math.Round(close, 2); }
+			get { return close; }
 			set { close = value; }
 		}
 

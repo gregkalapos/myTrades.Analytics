@@ -11,4 +11,4 @@ Frequency=3328125 Hz, Resolution=300.4695 ns, Timer=TSC
 ```
 |           Method |     Mean |    Error |   StdDev |    Gen 0 | Allocated |
 |----------------- |---------:|---------:|---------:|---------:|----------:|
-| CalculateSmaPerf | 340.5 us | 6.410 us | 5.996 us | 196.7773 | 807.99 KB |
+| CalculateSmaPerf | 249.5 us | 2.628 us | 2.458 us | 191.8945 | 786.35 KB |

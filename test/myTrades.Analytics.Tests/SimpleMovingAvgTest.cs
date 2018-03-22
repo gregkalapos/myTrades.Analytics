@@ -15,30 +15,30 @@ namespace MyTrades.Analytics.Tests
 
 			for (int i = 0; i < sma.Count; i++)
 			{
-				Assert.AreEqual(sma[i].Date, GetHistoricalData()[9 + i].Date);
+				Assert.AreEqual(GetHistoricalData()[9 + i].Date, sma[i].Date);
 			}
 			
-			Assert.AreEqual(sma[0].Value, 22.224750000m);
-			Assert.AreEqual(sma[1].Value, 22.212830000m);
-			Assert.AreEqual(sma[2].Value, 22.232690000m);
-			Assert.AreEqual(sma[3].Value, 22.262380000m);
-			Assert.AreEqual(sma[4].Value, 22.306060000m);
-			Assert.AreEqual(sma[5].Value, 22.423240000m);
-			Assert.AreEqual(sma[6].Value, 22.614990000m);
-			Assert.AreEqual(sma[7].Value, 22.766920000m);
-			Assert.AreEqual(sma[8].Value, 22.906930000m);
-			Assert.AreEqual(sma[9].Value, 23.077730000m);
-			Assert.AreEqual(sma[10].Value,23.211780000m);
-			Assert.AreEqual(sma[11].Value, 23.378610000m);
-			Assert.AreEqual(sma[12].Value, 23.526570000m);
-			Assert.AreEqual(sma[13].Value, 23.653780000m);
-			Assert.AreEqual(sma[14].Value, 23.711390000m);
-			Assert.AreEqual(sma[15].Value, 23.685570000m);
-			Assert.AreEqual(sma[16].Value, 23.612980000m);
-			Assert.AreEqual(sma[17].Value, 23.505730000m);
-			Assert.AreEqual(sma[18].Value, 23.432250000m);
-			Assert.AreEqual(sma[19].Value, 23.277340000m);
-			Assert.AreEqual(sma[20].Value, 23.131210000m);
+			Assert.AreEqual(22.224750000m, sma[0].Value);
+			Assert.AreEqual(22.212830000m, sma[1].Value);
+			Assert.AreEqual(22.232690000m, sma[2].Value);
+			Assert.AreEqual(22.262380000m, sma[3].Value);
+			Assert.AreEqual(22.306060000m, sma[4].Value);
+			Assert.AreEqual(22.423240000m, sma[5].Value);
+			Assert.AreEqual(22.614990000m, sma[6].Value);
+			Assert.AreEqual(22.766920000m, sma[7].Value);
+			Assert.AreEqual(22.906930000m, sma[8].Value);
+			Assert.AreEqual(23.077730000m, sma[9].Value);
+			Assert.AreEqual(23.211780000m, sma[10].Value);
+			Assert.AreEqual(23.378610000m, sma[11].Value);
+			Assert.AreEqual(23.526570000m, sma[12].Value);
+			Assert.AreEqual(23.653780000m, sma[13].Value);
+			Assert.AreEqual(23.711390000m, sma[14].Value);
+			Assert.AreEqual(23.685570000m, sma[15].Value);
+			Assert.AreEqual(23.612980000m, sma[16].Value);
+			Assert.AreEqual(23.505730000m, sma[17].Value);
+			Assert.AreEqual(23.432250000m, sma[18].Value);
+			Assert.AreEqual(23.277340000m, sma[19].Value);
+			Assert.AreEqual(23.131210000m, sma[20].Value);
 		}
 
 		public List<HistoricalValue> GetHistoricalData()
